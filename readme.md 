@@ -1,0 +1,29 @@
+# Flask User Authentication App — Documentation
+
+## Overview
+
+This is a simple Flask web application that allows users to register and log in.  
+- Stores user info (name, surname, age, job, email, password) in a PostgreSQL database.  
+- Session-based login without password hashing (for now).  
+- Basic HTML templates for home, login, and registration pages.  
+- Flash messages for user feedback.
+
+---
+
+## Prerequisites
+
+- Python 3.8+  
+- PostgreSQL (local or remote)  
+- `pip` for installing dependencies  
+- Git for version control  
+- Optional but recommended: Docker, Kubernetes CLI (`kubectl`), AWS CLI  
+
+---
+
+## Setup & Run Locally
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/flask-auth-app.git
+   cd flask-auth-app

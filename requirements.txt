@@ -1,0 +1,6 @@
+Flask>=2.0
+Flask-SQLAlchemy>=2.5
+Werkzeug>=2.0
+psycopg2-binary>=2.9
+SQLAlchemy-Utils>=0.38
+python-dotenv>=0.20
