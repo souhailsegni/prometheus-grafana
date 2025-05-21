@@ -1,1 +1,6 @@
 /test
+.env
+/instance
+/.env
+/.venv
+/.venv/
